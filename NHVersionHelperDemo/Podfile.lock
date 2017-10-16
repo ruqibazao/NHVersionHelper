@@ -1,0 +1,16 @@
+PODS:
+  - NHVersionHelper (1.0.0)
+
+DEPENDENCIES:
+  - NHVersionHelper (from `../NHVersionHelper.podspec`)
+
+EXTERNAL SOURCES:
+  NHVersionHelper:
+    :path: "../NHVersionHelper.podspec"
+
+SPEC CHECKSUMS:
+  NHVersionHelper: 830b6059be55fe9c4cbb7052d32751531a584af6
+
+PODFILE CHECKSUM: 9c947444a3b68d40a63e74f564864ef266a4ca31
+
+COCOAPODS: 1.2.1

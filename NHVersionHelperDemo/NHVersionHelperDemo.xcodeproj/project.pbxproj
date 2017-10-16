@@ -15,10 +15,7 @@
 		0A52BF631F9489F5007DBF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A52BF611F9489F5007DBF42 /* LaunchScreen.storyboard */; };
 		0A52BF6E1F9489F5007DBF42 /* NHVersionHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF6D1F9489F5007DBF42 /* NHVersionHelperDemoTests.m */; };
 		0A52BF791F9489F5007DBF42 /* NHVersionHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF781F9489F5007DBF42 /* NHVersionHelperDemoUITests.m */; };
-		0A52BF8F1F948A26007DBF42 /* NHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF881F948A26007DBF42 /* NHAlertView.m */; };
-		0A52BF901F948A26007DBF42 /* NHAppinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF8A1F948A26007DBF42 /* NHAppinfo.m */; };
-		0A52BF911F948A26007DBF42 /* NHRequstVInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF8C1F948A26007DBF42 /* NHRequstVInfo.m */; };
-		0A52BF921F948A26007DBF42 /* NHVersionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52BF8E1F948A26007DBF42 /* NHVersionHelper.m */; };
+		45A27741C38C11F5FC0C3DBC /* libPods-NHVersionHelperDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D1595DB40F1A9428F0C276 /* libPods-NHVersionHelperDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +52,9 @@
 		0A52BF741F9489F5007DBF42 /* NHVersionHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHVersionHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A52BF781F9489F5007DBF42 /* NHVersionHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHVersionHelperDemoUITests.m; sourceTree = "<group>"; };
 		0A52BF7A1F9489F6007DBF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A52BF871F948A26007DBF42 /* NHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAlertView.h; sourceTree = "<group>"; };
-		0A52BF881F948A26007DBF42 /* NHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAlertView.m; sourceTree = "<group>"; };
-		0A52BF891F948A26007DBF42 /* NHAppinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAppinfo.h; sourceTree = "<group>"; };
-		0A52BF8A1F948A26007DBF42 /* NHAppinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAppinfo.m; sourceTree = "<group>"; };
-		0A52BF8B1F948A26007DBF42 /* NHRequstVInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHRequstVInfo.h; sourceTree = "<group>"; };
-		0A52BF8C1F948A26007DBF42 /* NHRequstVInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHRequstVInfo.m; sourceTree = "<group>"; };
-		0A52BF8D1F948A26007DBF42 /* NHVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHVersionHelper.h; sourceTree = "<group>"; };
-		0A52BF8E1F948A26007DBF42 /* NHVersionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHVersionHelper.m; sourceTree = "<group>"; };
+		0A9F4C70A05BA61F6283C534 /* Pods-NHVersionHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHVersionHelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NHVersionHelperDemo/Pods-NHVersionHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D1595DB40F1A9428F0C276 /* libPods-NHVersionHelperDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHVersionHelperDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EB856492EFA6F4D0046623 /* Pods-NHVersionHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHVersionHelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NHVersionHelperDemo/Pods-NHVersionHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A27741C38C11F5FC0C3DBC /* libPods-NHVersionHelperDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +86,12 @@
 		0A52BF471F9489F5007DBF42 = {
 			isa = PBXGroup;
 			children = (
-				0A52BF861F948A26007DBF42 /* NHVersionHelper */,
 				0A52BF521F9489F5007DBF42 /* NHVersionHelperDemo */,
 				0A52BF6C1F9489F5007DBF42 /* NHVersionHelperDemoTests */,
 				0A52BF771F9489F5007DBF42 /* NHVersionHelperDemoUITests */,
 				0A52BF511F9489F5007DBF42 /* Products */,
+				828F0CB5196B912853B53CD9 /* Pods */,
+				A772F52E8D8DBE135D013AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,19 +147,21 @@
 			path = NHVersionHelperDemoUITests;
 			sourceTree = "<group>";
 		};
-		0A52BF861F948A26007DBF42 /* NHVersionHelper */ = {
+		828F0CB5196B912853B53CD9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A52BF871F948A26007DBF42 /* NHAlertView.h */,
-				0A52BF881F948A26007DBF42 /* NHAlertView.m */,
-				0A52BF891F948A26007DBF42 /* NHAppinfo.h */,
-				0A52BF8A1F948A26007DBF42 /* NHAppinfo.m */,
-				0A52BF8B1F948A26007DBF42 /* NHRequstVInfo.h */,
-				0A52BF8C1F948A26007DBF42 /* NHRequstVInfo.m */,
-				0A52BF8D1F948A26007DBF42 /* NHVersionHelper.h */,
-				0A52BF8E1F948A26007DBF42 /* NHVersionHelper.m */,
+				0A9F4C70A05BA61F6283C534 /* Pods-NHVersionHelperDemo.debug.xcconfig */,
+				E0EB856492EFA6F4D0046623 /* Pods-NHVersionHelperDemo.release.xcconfig */,
 			);
-			path = NHVersionHelper;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A772F52E8D8DBE135D013AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1595DB40F1A9428F0C276 /* libPods-NHVersionHelperDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A52BF7D1F9489F6007DBF42 /* Build configuration list for PBXNativeTarget "NHVersionHelperDemo" */;
 			buildPhases = (
+				5F9EB7CC5E8BA4E55589C565 /* [CP] Check Pods Manifest.lock */,
 				0A52BF4C1F9489F5007DBF42 /* Sources */,
 				0A52BF4D1F9489F5007DBF42 /* Frameworks */,
 				0A52BF4E1F9489F5007DBF42 /* Resources */,
+				2ECBD1E807711E333F05EE16 /* [CP] Embed Pods Frameworks */,
+				4253BA396935F1DB36F97AF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,18 +298,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ECBD1E807711E333F05EE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NHVersionHelperDemo/Pods-NHVersionHelperDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4253BA396935F1DB36F97AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NHVersionHelperDemo/Pods-NHVersionHelperDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9EB7CC5E8BA4E55589C565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A52BF4C1F9489F5007DBF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A52BF5B1F9489F5007DBF42 /* ViewController.m in Sources */,
-				0A52BF8F1F948A26007DBF42 /* NHAlertView.m in Sources */,
-				0A52BF911F948A26007DBF42 /* NHRequstVInfo.m in Sources */,
 				0A52BF581F9489F5007DBF42 /* AppDelegate.m in Sources */,
-				0A52BF921F948A26007DBF42 /* NHVersionHelper.m in Sources */,
 				0A52BF551F9489F5007DBF42 /* main.m in Sources */,
-				0A52BF901F948A26007DBF42 /* NHAppinfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +498,7 @@
 		};
 		0A52BF7E1F9489F6007DBF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9F4C70A05BA61F6283C534 /* Pods-NHVersionHelperDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69U78V53ZN;
@@ -468,6 +512,7 @@
 		};
 		0A52BF7F1F9489F6007DBF42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EB856492EFA6F4D0046623 /* Pods-NHVersionHelperDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69U78V53ZN;
@@ -548,6 +593,7 @@
 				0A52BF7F1F9489F6007DBF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A52BF801F9489F6007DBF42 /* Build configuration list for PBXNativeTarget "NHVersionHelperDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +602,7 @@
 				0A52BF821F9489F6007DBF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A52BF831F9489F6007DBF42 /* Build configuration list for PBXNativeTarget "NHVersionHelperDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +611,7 @@
 				0A52BF851F9489F6007DBF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
