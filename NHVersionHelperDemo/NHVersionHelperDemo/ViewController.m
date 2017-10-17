@@ -11,7 +11,6 @@
 
 
 @interface ViewController ()
-@property (nonatomic, strong) NHVersionHelper * tool;
 
 @end
 
@@ -21,14 +20,15 @@
     [super viewDidLoad];
 
     
-
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    _tool = [NHVersionHelper versionHelperBeginRequestWithAppID:@"你的app id" complete:^(NHAppinfo *appinfo, NSError *eror) {
+    [NHVersionHelper versionHelperWithAppID:@"1235955965"/**你的app id*/ complete:^(NHAppinfo *appinfo, NSError *eror) {
         //do something
         //...
+        NSLog(@"版本请求结果:%@",appinfo);
     }];
 }
 

@@ -11,7 +11,18 @@
 
 @interface NHVersionHelper : NSObject
 
-+ (instancetype)versionHelperBeginRequestWithAppID:(NSString *)appID complete:(void(^)(NHAppinfo *appinfo, NSError *error))completeBlock;
+/** 是否自动弹出提示框，默认yes */
+@property (nonatomic, assign) BOOL isShowTip;
+
+/** init */
++ (instancetype)sharedVersion;
+
+/** 在新的版本中是否第一次启动 */
++ (BOOL)onTheNewVersionIsFirstLaunch;
+
+/** 新版本检测 */
++ (instancetype)versionHelperWithAppID:(NSString *)appID
+                              complete:(void(^)(NHAppinfo *appinfo, NSError *error))completeBlock;
 
 
 @end
