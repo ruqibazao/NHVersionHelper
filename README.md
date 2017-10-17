@@ -14,3 +14,8 @@ iOS 检测版本升级工具
  }];
 @end
 ```
+
+```
+使用 pod 集成：
+pod 'NHVersionHelper'
+```
