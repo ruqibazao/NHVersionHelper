@@ -30,6 +30,8 @@
         
         
     }];
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"xxx88x8x"]];
 }
 
 

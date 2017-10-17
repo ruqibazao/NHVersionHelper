@@ -7,26 +7,17 @@
 #
 
 Pod::Spec.new do |s|
-
   s.name         = "NHVersionHelper"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "iOS 检测版本升级工具"
-
-
   s.description  = <<-DESC
   iOS 从app store检测版本升级工具
                    DESC
-
   s.homepage     = "https://github.com/neghao/NHVersionHelper"
-
   s.license      = { :type => "MIT", :file => "LICENSE" }
-
-  s.author             = { "neghao" => "neghao@162.com" }
-
+  s.author       = { "neghao" => "neghao@162.com" }
   s.platform     = :ios, "7.0"
-
-  s.source       = { :git => "https://github.com/neghao/NHVersionHelper.git", :tag => "#{s.version}" }
-
+  #s.source       = { :git => "https://github.com/neghao/NHVersionHelper.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/neghao/NHVersionHelper.git",  :tag => s.version.to_s }
   s.source_files  = "NHVersionHelper/*.{h,m}"
-  
 end
