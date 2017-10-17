@@ -27,11 +27,9 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     _tool = [NHVersionHelper versionHelperBeginRequestWithAppID:@"你的app id" complete:^(NHAppinfo *appinfo, NSError *eror) {
-        
-        
+        //do something
+        //...
     }];
-    
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"xxx88x8x"]];
 }
 
 

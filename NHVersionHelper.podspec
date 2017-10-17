@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "neghao" => "neghao@162.com" }
   s.platform     = :ios, "7.0"
-  #s.source       = { :git => "https://github.com/neghao/NHVersionHelper.git", :tag => "#{s.version}" }
   s.source       = { :git => "https://github.com/neghao/NHVersionHelper.git",  :tag => s.version.to_s }
   s.source_files  = "NHVersionHelper/*.{h,m}"
 end
