@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NHVersionHelper"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "iOS 检测版本升级工具"
   s.description  = <<-DESC
   iOS 从app store检测版本升级工具
